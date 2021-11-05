@@ -1,0 +1,129 @@
+@media print{
+    .container{
+        zoom: 0.60;
+        margin: 0 20px!important;
+    }
+    @page {
+        /*size: auto;*/
+        size: landscape;
+        margin: 0;
+        /*margin: 0;*/
+    }
+}
+
+body {
+    background-color: 100%;
+    font-famiy: arial, sans-serif;
+}
+
+
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 11px;
+    margin-left: 191px;
+}
+
+.studentpicture {
+    width: 90px;
+    height: 90px;
+    margin-right: 175px;
+}
+
+.header {
+    display: flex;
+    align-content: space-between;
+    
+}
+
+.headertext {
+    text-align: center;
+    margin-inline: auto;
+}    
+
+.headertext1 {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 17px;
+}
+
+.studentinfo {
+    margin-top: 28px;
+    width: 37.1%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+.studentinfo td {
+    border: 2px solid black;
+}
+
+
+.attendance {
+    margin-top: 68px;
+    width: 20%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 12px;
+    height: 20px;
+    margin-left: 501px;
+  }
+
+.attendance td {
+    border: 2px solid black;
+    border-bottom: 1px;
+}
+
+.first {
+    display: flex;
+}
+
+.section1 {
+    border: 2px solid black;
+    font-size: 12px;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+}
+
+.section1 td {
+    border: 2px solid black;
+    border-right: none;
+}
+
+.section2 {
+    border: 2px solid black;
+    font-size: 9px;
+    border-collapse: collapse;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 1px;
+    width: 19%;
+}
+
+.section2 td {
+    border: 2px solid black;
+}
+
+.sectionall {
+    display: flex;
+}
+
+.section3 {
+    border: 2px solid black;
+    font-size: 9px;
+    border-collapse: collapse;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 1px;
+    font-size: 14px;
+}
+
+.section3 td {
+    border: 2px solid black;
+    border-left: none;
+}
